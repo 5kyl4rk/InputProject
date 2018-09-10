@@ -81,9 +81,13 @@ public class InputController
 
 		System.out.println("Type in your favorite number");
 
-		int userNumber = textScanner.nextInt();
-
-		System.out.println("your favorite number is: " + userNumber);
+		//int userNumber = textScanner.nextInt();
+		String maybeNumber = textScanner.next();
+		
+		validInt(maybeNumber);
+		
+		
+		System.out.println("your favorite number is: " + maybeNumber);
 		// Need to call .nextLine() to consume the 'enter' press after the call .next(),
 		// .nextInt(), or .nextDouble()
 		textScanner.nextLine();
