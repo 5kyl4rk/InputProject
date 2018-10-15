@@ -6,8 +6,7 @@ public class InputController
 {
 	public void start()
 	{
-		System.out.println("\"Questions?\"");
-
+		
 		questions();
 
 		moreInput();
@@ -79,7 +78,7 @@ public class InputController
 
 		textScanner = new Scanner(System.in);// Initialization of the textScanner variable//
 
-<<<<<<< HEAD
+
 		System.out.println("Type in your favorite number");
 
 		//int userNumber = textScanner.nextInt();
@@ -89,10 +88,10 @@ public class InputController
 		
 		
 		System.out.println("your favorite number is: " + maybeNumber);
-=======
+
 		
 
-		String maybeNumber = "";
+		maybeNumber = "";
 		
 		while(!validInt(maybeNumber)) {
 			System.out.println("Type in your favorite number");
@@ -102,7 +101,7 @@ public class InputController
 			System.out.println("your favorite number is: " + maybeNumber);
 		
 		
->>>>>>> 795d7ec96e7b7a5597e09fdf595315b692ac4481
+
 		// Need to call .nextLine() to consume the 'enter' press after the call .next(),
 		// .nextInt(), or .nextDouble()
 		textScanner.nextLine();
@@ -129,7 +128,8 @@ public class InputController
 					"      .        .7`        .,777.. .I.    . .!          .,7! \n" + 
 					"      ..     .?         .^      .l   ?i. . .`       .,^ \n" + 
 					"       b    .!        .= .?7???7~.     .>r .      .= \n" + 
-					"       .,.?4         , .^         1        `     4... \n" + 						"        J   ^         ,            5       `         ?<. \n" + 
+					"       .,.?4         , .^         1        `     4... \n" + 
+					"        J   ^         ,            5       `         ?<. \n" + 
 					"       .%.7;         .`     .,     .;                   .=. \n" + 
 					"       .+^ .,       .%      MML     F       .,             ?, \n" + 
 					"        P   ,,      J      .MMN     F        6               4. \n" + 
@@ -166,7 +166,8 @@ public class InputController
 					"    .?`        1   L     .7.........?Ti..l \n" + 
 					"   ,`           L  .    .%    .`!       `j, \n" + 
 					" .^             .  ..   .`   .^  .?7!?7+. 1 \n" + 
-					".`              .  .`..`7.  .^  ,`      .i.; \n" + 						".7<..........~<<3?7!`    4. r  `          G% \n" + 
+					".`              .  .`..`7.  .^  ,`      .i.; \n" + 
+					".7<..........~<<3?7!`    4. r  `          G% \n" + 
 					"                          J.` .!           % \n" + 
 					"                            JiJ           .` \n" + 
 					"                              .1.         J \n" + 
